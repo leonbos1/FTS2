@@ -61,6 +61,8 @@ export default {
         this.myChart.destroy();
       }
 
+      this.mapData();
+
       const ctx = document.getElementById("graph").getContext("2d");
   
       const activitydata = this.data.distance;
