@@ -34,7 +34,7 @@ export default {
       newRoom: {
         location: "",
       },
-      url: "http://ronleon.nl:2000",
+      url: "http://ronleon.nl:80",
     };
   },
 

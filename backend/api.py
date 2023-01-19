@@ -436,7 +436,7 @@ if __name__ == "__main__":
 
     if ENVIRONMENT == 'production':
 
-        app.run(host = '192.168.178.220', port=5000, debug=True)
+        app.run(host = '192.168.178.220', port=8081, debug=True)
     else:
         app.run(port=2000, debug=True)
 
