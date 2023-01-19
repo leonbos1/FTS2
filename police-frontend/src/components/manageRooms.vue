@@ -23,6 +23,9 @@
 </template>
 
 <script>
+
+import data from "../data.json";
+
 export default {
   name: "ManageRoomsPage",
   components: {},
@@ -34,7 +37,7 @@ export default {
       newRoom: {
         location: "",
       },
-      url: "http://ronleon.nl:80",
+      url: data.url,
     };
   },
 

@@ -435,8 +435,7 @@ if __name__ == "__main__":
         db.create_all()
 
     if ENVIRONMENT == 'production':
-
-        app.run(host = '192.168.178.220', port=8081, debug=True)
+        app.run(host = '192.168.178.220', port=2000, debug=True)
     else:
         app.run(port=2000, debug=True)
 
